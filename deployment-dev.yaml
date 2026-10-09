@@ -42,7 +42,7 @@ metadata:
   name: dev-service
 spec:
   selector:
-    app: dev
+    app: nginx
     role: dev
   ports:
   - protocol: TCP
